@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/subtitulo.css">
+    <link rel="stylesheet" href="./css/inspirar.css">
+    <link rel="stylesheet" href="./css/adicionaTarefa.css">
+    <link rel="stylesheet" href="./css/listaTarefas.css">
+
+</head>
+<body>
+    <header class="header">
+        <h1 class="header_titulo">Lista De Tarefas</h1>
+        <div class="header_info">
+            <img class="header_info_imagem" src="./img/man.png">
+            <div class="header_info_descricao">
+                <p class="header_info_nome">Marcos Thomé</p>
+                <p class="header_info_saudacao">Bem vindo(a)</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="inspirar">
+        <h2 class="subtitulo">Para Inspirar</h2>
+        <div class="inspirar_conteudo">
+            <div class="inspirar_quadrante">
+                <p class="inspirar_quadrante_conteudo">"The tragedy in life doesn't lie in not reaching your goal. The tragedy lies in having no goal to reach."</p>
+                <p><strong>Benjamin E. Mays</strong>, American civil rights leader</p>
+            </div>
+            <div class="inspirar_quadrante">
+                <p class="inspirar_quadrante_conteudo">"Until we can manage time, we can manage nothing else."</p>
+                <p><strong>Peter Drucker</strong>, management consultant</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <main>
+        <h2 class="subtitulo">Minhas tarefas</h2>
+        <div class="adiciona_tarefa">
+            <input class="adiciona_tarefa_input" type="text"></input>
+            <button class="adiciona_tarefa_button">Adicionar</button>
+        </div>
+
+        <section class="lista_tarefas">
+        </section>
+    </main>
+
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>

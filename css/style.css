@@ -1,0 +1,20 @@
+:root{
+    --azul: #203047;
+    --amarelo: #f5d01f;
+    --cinza: #e7e7e7;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --vermelho: #dc143c;
+    background-color: var(--cinza);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--branco);
+}
+
+strong{
+    font-weight: 800;
+}
+
+hr{
+    border: 1px solid var(--branco);
+    margin: 1rem 0;
+}

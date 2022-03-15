@@ -1,0 +1,29 @@
+.adiciona_tarefa{
+    align-items: center;
+    display: flex;
+    margin: 0 1rem;
+    
+}
+
+.adiciona_tarefa_input{
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-right: 2rem;
+    width: 100%;
+}
+
+.adiciona_tarefa_button{
+    background-color: var(--amarelo);
+    border: none;
+    border-radius: 8px;
+    color: var(--preto);
+    float: right;
+    padding: 1rem 1.75rem;
+    transition: .5s;
+}
+
+.adiciona_tarefa_button:hover{
+    box-shadow: 5px 10px 18px var(--preto);
+    transition: .5s;
+}

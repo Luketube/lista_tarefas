@@ -1,0 +1,21 @@
+.inspirar_conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.inspirar_quadrante{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--azul);
+    border-radius: 16px;
+    padding: 2rem;
+    width: 25%;
+    height: 8rem;
+}
+
+.inspirar_quadrante_conteudo{
+    line-height: 1.5rem;
+}
