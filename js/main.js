@@ -11,23 +11,20 @@ function conteudoTarefa (nomeTarefa){
             <input class="tarefa_conteudo_checkbox" type="checkbox" id="tarefaFeita" name="tarefaFeita">
             <label class="tarefa_conteudo_nome" for="tarefaFeita">${nomeTarefa}</label>
         </div>
-        <button class="lista_tarefas_remover">Remover</button>
+        <img class="icon_remover" src="./img/trash.svg" alt="Icone de lixeira">
     </div>
     <hr class="linha">`
 
     listaTarefas.insertAdjacentHTML('beforeend', conteudo);
 
-       
+
 }
 
 function adicionaTarefa(){
     conteudoTarefa(inputTarefa.value);
 }
 
-function pegaRemover(){
-    document.querySelector('.lista_tarefas_remover');
-}
+
 
 botaoAdicionar.addEventListener('click', adicionaTarefa);
-
 

@@ -26,4 +26,6 @@
 .adiciona_tarefa_button:hover{
     box-shadow: 5px 10px 18px var(--preto);
     transition: .5s;
+
+    cursor: pointer;
 }
