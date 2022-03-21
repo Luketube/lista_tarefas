@@ -28,10 +28,12 @@
     font-size: 1.5rem;
 }
 
-.icon_remover{
-    margin-right: 1.5rem;
+.botao_remover{
+    background: none;
+    border: none;
+    margin-right: 1rem;
 }
 
-.icon_remover:hover{
+.botao_remover:hover{
     cursor: pointer;
 }
